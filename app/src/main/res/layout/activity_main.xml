@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DE002A4B"
+    android:background="#4080B0"
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -14,16 +14,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:lottie_rawRes="@raw/anime"
         app:lottie_autoPlay="true"
-        app:lottie_loop="true"/>
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/ramdhand" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/kufam_medium"
         android:text="رمضان يجمعنا"
         android:textColor="#FEFEFE"
         android:textSize="34sp"
