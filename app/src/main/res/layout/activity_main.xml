@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4080B0"
+    android:background="@color/backgrundColor"
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -24,9 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
         android:fontFamily="@font/kufam_semibold"
-        android:text="رمضان يجمعنا"
-        android:textColor="#FEFEFE"
-        android:textSize="34sp"
+        android:text="@string/amdhamText"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/largeText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
